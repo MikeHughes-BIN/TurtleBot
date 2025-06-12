@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../build/sb3_pusher/sb3_pusher.egg-info
+writing ../../../build/sb3_pusher/sb3_pusher.egg-info/PKG-INFO
+writing dependency_links to ../../../build/sb3_pusher/sb3_pusher.egg-info/dependency_links.txt
+writing entry points to ../../../build/sb3_pusher/sb3_pusher.egg-info/entry_points.txt
+writing requirements to ../../../build/sb3_pusher/sb3_pusher.egg-info/requires.txt
+writing top-level names to ../../../build/sb3_pusher/sb3_pusher.egg-info/top_level.txt
+writing manifest file '../../../build/sb3_pusher/sb3_pusher.egg-info/SOURCES.txt'
+reading manifest file '../../../build/sb3_pusher/sb3_pusher.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/sb3_pusher/sb3_pusher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/turtle1/turtlebot3_ws/build/sb3_pusher/build
+creating /home/turtle1/turtlebot3_ws/build/sb3_pusher/build/lib
+creating /home/turtle1/turtlebot3_ws/build/sb3_pusher/build/lib/sb3_pusher
+copying sb3_pusher/__init__.py -> /home/turtle1/turtlebot3_ws/build/sb3_pusher/build/lib/sb3_pusher
+copying sb3_pusher/camera_inference.py -> /home/turtle1/turtlebot3_ws/build/sb3_pusher/build/lib/sb3_pusher
+running install
+running install_lib
+creating /home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/python3.10/site-packages/sb3_pusher
+copying /home/turtle1/turtlebot3_ws/build/sb3_pusher/build/lib/sb3_pusher/__init__.py -> /home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/python3.10/site-packages/sb3_pusher
+copying /home/turtle1/turtlebot3_ws/build/sb3_pusher/build/lib/sb3_pusher/camera_inference.py -> /home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/python3.10/site-packages/sb3_pusher
+byte-compiling /home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/python3.10/site-packages/sb3_pusher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/python3.10/site-packages/sb3_pusher/camera_inference.py to camera_inference.cpython-310.pyc
+running install_data
+creating /home/turtle1/turtlebot3_ws/install/sb3_pusher/share/ament_index
+creating /home/turtle1/turtlebot3_ws/install/sb3_pusher/share/ament_index/resource_index
+creating /home/turtle1/turtlebot3_ws/install/sb3_pusher/share/ament_index/resource_index/packages
+copying resource/sb3_pusher -> /home/turtle1/turtlebot3_ws/install/sb3_pusher/share/ament_index/resource_index/packages
+copying package.xml -> /home/turtle1/turtlebot3_ws/install/sb3_pusher/share/sb3_pusher
+running install_egg_info
+Copying ../../../build/sb3_pusher/sb3_pusher.egg-info to /home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/python3.10/site-packages/sb3_pusher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing inference script to /home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/sb3_pusher
+writing list of installed files to '/home/turtle1/turtlebot3_ws/build/sb3_pusher/install.log'

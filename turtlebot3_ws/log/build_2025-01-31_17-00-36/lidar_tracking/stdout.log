@@ -1,0 +1,48 @@
+running egg_info
+creating ../../../build/lidar_tracking/lidar_tracking.egg-info
+writing ../../../build/lidar_tracking/lidar_tracking.egg-info/PKG-INFO
+writing dependency_links to ../../../build/lidar_tracking/lidar_tracking.egg-info/dependency_links.txt
+writing entry points to ../../../build/lidar_tracking/lidar_tracking.egg-info/entry_points.txt
+writing requirements to ../../../build/lidar_tracking/lidar_tracking.egg-info/requires.txt
+writing top-level names to ../../../build/lidar_tracking/lidar_tracking.egg-info/top_level.txt
+writing manifest file '../../../build/lidar_tracking/lidar_tracking.egg-info/SOURCES.txt'
+reading manifest file '../../../build/lidar_tracking/lidar_tracking.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/lidar_tracking/lidar_tracking.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/turtle1/turtlebot3_ws/build/lidar_tracking/build
+creating /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib
+creating /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+copying lidar_tracking/follow_ball.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+copying lidar_tracking/reset_odom.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+copying lidar_tracking/find_circle.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+copying lidar_tracking/__init__.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+copying lidar_tracking/find_arc.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+copying lidar_tracking/publish_lidar_data.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+running install
+running install_lib
+creating /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/follow_ball.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/reset_odom.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/find_circle.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/__init__.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/find_arc.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/publish_lidar_data.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/follow_ball.py to follow_ball.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/reset_odom.py to reset_odom.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/find_circle.py to find_circle.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/find_arc.py to find_arc.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/publish_lidar_data.py to publish_lidar_data.cpython-310.pyc
+running install_data
+creating /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/ament_index
+creating /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/ament_index/resource_index
+creating /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/ament_index/resource_index/packages
+copying resource/lidar_tracking -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/ament_index/resource_index/packages
+copying package.xml -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/lidar_tracking
+running install_egg_info
+Copying ../../../build/lidar_tracking/lidar_tracking.egg-info to /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking-0.0.0-py3.10.egg-info
+running install_scripts
+Installing findball script to /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/lidar_tracking
+writing list of installed files to '/home/turtle1/turtlebot3_ws/build/lidar_tracking/install.log'

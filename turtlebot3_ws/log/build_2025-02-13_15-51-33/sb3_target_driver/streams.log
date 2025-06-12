@@ -1,0 +1,42 @@
+[16.825s] Invoking command in '/home/turtle1/turtlebot3_ws/src/tb3_rl/sb3_target_driver': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/sb3_target_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sb3_target_driver build --build-base /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build install --record /home/turtle1/turtlebot3_ws/build/sb3_target_driver/install.log --single-version-externally-managed install_data
+[19.573s] running egg_info
+[19.574s] creating ../../../build/sb3_target_driver/sb3_target_driver.egg-info
+[19.575s] writing ../../../build/sb3_target_driver/sb3_target_driver.egg-info/PKG-INFO
+[19.578s] writing dependency_links to ../../../build/sb3_target_driver/sb3_target_driver.egg-info/dependency_links.txt
+[19.579s] writing entry points to ../../../build/sb3_target_driver/sb3_target_driver.egg-info/entry_points.txt
+[19.580s] writing requirements to ../../../build/sb3_target_driver/sb3_target_driver.egg-info/requires.txt
+[19.581s] writing top-level names to ../../../build/sb3_target_driver/sb3_target_driver.egg-info/top_level.txt
+[19.581s] writing manifest file '../../../build/sb3_target_driver/sb3_target_driver.egg-info/SOURCES.txt'
+[19.590s] reading manifest file '../../../build/sb3_target_driver/sb3_target_driver.egg-info/SOURCES.txt'
+[19.590s] adding license file 'LICENSE'
+[19.596s] writing manifest file '../../../build/sb3_target_driver/sb3_target_driver.egg-info/SOURCES.txt'
+[19.599s] running build
+[19.599s] running build_py
+[19.600s] creating /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build
+[19.600s] creating /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build/lib
+[19.601s] creating /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build/lib/sb3_target_driver
+[19.628s] copying sb3_target_driver/driver_inference.py -> /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build/lib/sb3_target_driver
+[19.632s] copying sb3_target_driver/__init__.py -> /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build/lib/sb3_target_driver
+[19.633s] copying sb3_target_driver/twist_test.py -> /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build/lib/sb3_target_driver
+[19.633s] running install
+[19.634s] running install_lib
+[19.634s] creating /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages/sb3_target_driver
+[19.634s] copying /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build/lib/sb3_target_driver/driver_inference.py -> /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages/sb3_target_driver
+[19.635s] copying /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build/lib/sb3_target_driver/__init__.py -> /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages/sb3_target_driver
+[19.635s] copying /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build/lib/sb3_target_driver/twist_test.py -> /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages/sb3_target_driver
+[19.652s] byte-compiling /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages/sb3_target_driver/driver_inference.py to driver_inference.cpython-310.pyc
+[19.653s] byte-compiling /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages/sb3_target_driver/__init__.py to __init__.cpython-310.pyc
+[19.653s] byte-compiling /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages/sb3_target_driver/twist_test.py to twist_test.cpython-310.pyc
+[19.653s] running install_data
+[19.654s] creating /home/turtle1/turtlebot3_ws/install/sb3_target_driver/share/ament_index
+[19.654s] creating /home/turtle1/turtlebot3_ws/install/sb3_target_driver/share/ament_index/resource_index
+[19.654s] creating /home/turtle1/turtlebot3_ws/install/sb3_target_driver/share/ament_index/resource_index/packages
+[19.655s] copying resource/sb3_target_driver -> /home/turtle1/turtlebot3_ws/install/sb3_target_driver/share/ament_index/resource_index/packages
+[19.655s] copying package.xml -> /home/turtle1/turtlebot3_ws/install/sb3_target_driver/share/sb3_target_driver
+[19.676s] running install_egg_info
+[19.683s] Copying ../../../build/sb3_target_driver/sb3_target_driver.egg-info to /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages/sb3_target_driver-0.0.0-py3.10.egg-info
+[19.695s] running install_scripts
+[19.824s] Installing driver_inference script to /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/sb3_target_driver
+[19.827s] Installing twist_test script to /home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/sb3_target_driver
+[19.828s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/sb3_target_driver/install.log'
+[20.954s] Invoked command in '/home/turtle1/turtlebot3_ws/src/tb3_rl/sb3_target_driver' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/sb3_target_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sb3_target_driver build --build-base /home/turtle1/turtlebot3_ws/build/sb3_target_driver/build install --record /home/turtle1/turtlebot3_ws/build/sb3_target_driver/install.log --single-version-externally-managed install_data

@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.001486] (-) JobUnselected: {'identifier': 'ball_locator'}
+[0.002722] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.003022] (-) JobUnselected: {'identifier': 'lidar_tracking'}
+[0.003247] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.003464] (-) JobUnselected: {'identifier': 'publish_sensor_info'}
+[0.003679] (-) JobUnselected: {'identifier': 'sb3_inference'}
+[0.004084] (-) JobUnselected: {'identifier': 'sb3_pusher'}
+[0.004321] (-) JobUnselected: {'identifier': 'sb3_target_driver'}
+[0.004536] (-) JobUnselected: {'identifier': 'sensor_pub'}
+[0.004745] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.004966] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.005179] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.005384] (-) JobUnselected: {'identifier': 'turtlebot3_distance_keeper'}
+[0.005590] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.005797] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.006001] (-) JobUnselected: {'identifier': 'turtlebot3_soccer'}
+[0.006205] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.006427] (autonomous_driving) JobQueued: {'identifier': 'autonomous_driving', 'dependencies': OrderedDict()}
+[0.006660] (autonomous_driving) JobStarted: {'identifier': 'autonomous_driving'}
+[0.093327] (-) TimerEvent: {}
+[0.194725] (-) TimerEvent: {}
+[0.296236] (-) TimerEvent: {}
+[0.397610] (-) TimerEvent: {}
+[0.498858] (-) TimerEvent: {}
+[0.600113] (-) TimerEvent: {}
+[0.701393] (-) TimerEvent: {}
+[0.802793] (-) TimerEvent: {}
+[0.904267] (-) TimerEvent: {}
+[1.005758] (-) TimerEvent: {}
+[1.107134] (-) TimerEvent: {}
+[1.208654] (-) TimerEvent: {}
+[1.310002] (-) TimerEvent: {}
+[1.411616] (-) TimerEvent: {}
+[1.513025] (-) TimerEvent: {}
+[1.614276] (-) TimerEvent: {}
+[1.715477] (-) TimerEvent: {}
+[1.816818] (-) TimerEvent: {}
+[1.918186] (-) TimerEvent: {}
+[2.019554] (-) TimerEvent: {}
+[2.120889] (-) TimerEvent: {}
+[2.222152] (-) TimerEvent: {}
+[2.323416] (-) TimerEvent: {}
+[2.424806] (-) TimerEvent: {}
+[2.526025] (-) TimerEvent: {}
+[2.627247] (-) TimerEvent: {}
+[2.728532] (-) TimerEvent: {}
+[2.829726] (-) TimerEvent: {}
+[2.930937] (-) TimerEvent: {}
+[3.032397] (-) TimerEvent: {}
+[3.133651] (-) TimerEvent: {}
+[3.234906] (-) TimerEvent: {}
+[3.336317] (-) TimerEvent: {}
+[3.437543] (-) TimerEvent: {}
+[3.538832] (-) TimerEvent: {}
+[3.640205] (-) TimerEvent: {}
+[3.741412] (-) TimerEvent: {}
+[3.842719] (-) TimerEvent: {}
+[3.944360] (-) TimerEvent: {}
+[4.046472] (-) TimerEvent: {}
+[4.148398] (-) TimerEvent: {}
+[4.249779] (-) TimerEvent: {}
+[4.351148] (-) TimerEvent: {}
+[4.452447] (-) TimerEvent: {}
+[4.553783] (-) TimerEvent: {}
+[4.655142] (-) TimerEvent: {}
+[4.756644] (-) TimerEvent: {}
+[4.857897] (-) TimerEvent: {}
+[4.959147] (-) TimerEvent: {}
+[5.060625] (-) TimerEvent: {}
+[5.161949] (-) TimerEvent: {}
+[5.263254] (-) TimerEvent: {}
+[5.364529] (-) TimerEvent: {}
+[5.465716] (-) TimerEvent: {}
+[5.566919] (-) TimerEvent: {}
+[5.668196] (-) TimerEvent: {}
+[5.769429] (-) TimerEvent: {}
+[5.870687] (-) TimerEvent: {}
+[5.972060] (-) TimerEvent: {}
+[6.073467] (-) TimerEvent: {}
+[6.174765] (-) TimerEvent: {}
+[6.276110] (-) TimerEvent: {}
+[6.377293] (-) TimerEvent: {}
+[6.478544] (-) TimerEvent: {}
+[6.580046] (-) TimerEvent: {}
+[6.681415] (-) TimerEvent: {}
+[6.782724] (-) TimerEvent: {}
+[6.884071] (-) TimerEvent: {}
+[6.985404] (-) TimerEvent: {}
+[7.086739] (-) TimerEvent: {}
+[7.188010] (-) TimerEvent: {}
+[7.289262] (-) TimerEvent: {}
+[7.390471] (-) TimerEvent: {}
+[7.491785] (-) TimerEvent: {}
+[7.593574] (-) TimerEvent: {}
+[7.694896] (-) TimerEvent: {}
+[7.796268] (-) TimerEvent: {}
+[7.897780] (-) TimerEvent: {}
+[7.999436] (-) TimerEvent: {}
+[8.100868] (-) TimerEvent: {}
+[8.202336] (-) TimerEvent: {}
+[8.303532] (-) TimerEvent: {}
+[8.404799] (-) TimerEvent: {}
+[8.506157] (-) TimerEvent: {}
+[8.607487] (-) TimerEvent: {}
+[8.709108] (-) TimerEvent: {}
+[8.811359] (-) TimerEvent: {}
+[8.913530] (-) TimerEvent: {}
+[8.943850] (autonomous_driving) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/autonomous_driving', 'build', '--build-base', '/home/turtle1/turtlebot3_ws/build/autonomous_driving/build', 'install', '--record', '/home/turtle1/turtlebot3_ws/build/autonomous_driving/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/turtle1/turtlebot3_ws/src/turtlebot3/autonomous_driving', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turtle1', 'SSH_CLIENT': 'fe80::1570:bb68:351f:719d%wlan0 61110 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/turtle1/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/turtle1/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/turtle1', 'OLDPWD': '/home/turtle1', 'TERM_PROGRAM_VERSION': '1.100.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3fbc38f7-ba5a-46bc-a066-716ba919096d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/turtle1/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/turtle1/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/turtle1/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'turtle1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/turtle1/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/turtle1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/turtle1/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/turtle1/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f09b5087c090fb58.txt', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7f756d4da8.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install/turtlebot3:/home/turtle1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer:/home/turtle1/turtlebot3_ws/install/turtlebot3_bringup:/home/turtle1/turtlebot3_ws/install/turtlebot3_node:/home/turtle1/turtlebot3_ws/install/turtlebot3_example:/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper:/home/turtle1/turtlebot3_ws/install/turtlebot3_description:/home/turtle1/turtlebot3_ws/install/sensor_pub:/home/turtle1/turtlebot3_ws/install/sb3_target_driver:/home/turtle1/turtlebot3_ws/install/sb3_pusher:/home/turtle1/turtlebot3_ws/install/sb3_inference:/home/turtle1/turtlebot3_ws/install/publish_sensor_info:/home/turtle1/turtlebot3_ws/install/pub_sub:/home/turtle1/turtlebot3_ws/install/lidar_tracking:/home/turtle1/turtlebot3_ws/install/ld08_driver:/home/turtle1/turtlebot3_ws/install/ball_locator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/turtle1/turtlebot3_ws/build/autonomous_driving', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': 'fe80::1570:bb68:351f:719d%wlan0 61110 fe80::dea6:32ff:fe0e:711%wlan0 22', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/turtle1/turtlebot3_ws/build/autonomous_driving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install/turtlebot3:/home/turtle1/turtlebot3_ws/install/turtlebot3_bringup:/home/turtle1/turtlebot3_ws/install/turtlebot3_node:/home/turtle1/turtlebot3_ws/install/turtlebot3_description:/home/turtle1/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[9.013847] (-) TimerEvent: {}
+[9.115212] (-) TimerEvent: {}
+[9.216721] (-) TimerEvent: {}
+[9.318005] (-) TimerEvent: {}
+[9.419261] (-) TimerEvent: {}
+[9.520616] (-) TimerEvent: {}
+[9.621987] (-) TimerEvent: {}
+[9.723294] (-) TimerEvent: {}
+[9.824675] (-) TimerEvent: {}
+[9.926058] (-) TimerEvent: {}
+[10.027322] (-) TimerEvent: {}
+[10.128735] (-) TimerEvent: {}
+[10.230662] (-) TimerEvent: {}
+[10.332007] (-) TimerEvent: {}
+[10.433425] (-) TimerEvent: {}
+[10.534596] (-) TimerEvent: {}
+[10.635807] (-) TimerEvent: {}
+[10.737075] (-) TimerEvent: {}
+[10.838407] (-) TimerEvent: {}
+[10.939665] (-) TimerEvent: {}
+[11.041016] (-) TimerEvent: {}
+[11.148142] (-) TimerEvent: {}
+[11.249400] (-) TimerEvent: {}
+[11.350663] (-) TimerEvent: {}
+[11.451920] (-) TimerEvent: {}
+[11.553143] (-) TimerEvent: {}
+[11.654488] (-) TimerEvent: {}
+[11.755700] (-) TimerEvent: {}
+[11.856982] (-) TimerEvent: {}
+[11.958196] (-) TimerEvent: {}
+[12.059560] (-) TimerEvent: {}
+[12.161061] (-) TimerEvent: {}
+[12.262287] (-) TimerEvent: {}
+[12.363501] (-) TimerEvent: {}
+[12.464740] (-) TimerEvent: {}
+[12.565931] (-) TimerEvent: {}
+[12.635231] (autonomous_driving) StdoutLine: {'line': b'running egg_info\n'}
+[12.640915] (autonomous_driving) StdoutLine: {'line': b'creating ../../../build/autonomous_driving/autonomous_driving.egg-info\n'}
+[12.642997] (autonomous_driving) StdoutLine: {'line': b'writing ../../../build/autonomous_driving/autonomous_driving.egg-info/PKG-INFO\n'}
+[12.645654] (autonomous_driving) StdoutLine: {'line': b'writing dependency_links to ../../../build/autonomous_driving/autonomous_driving.egg-info/dependency_links.txt\n'}
+[12.647183] (autonomous_driving) StdoutLine: {'line': b'writing entry points to ../../../build/autonomous_driving/autonomous_driving.egg-info/entry_points.txt\n'}
+[12.648644] (autonomous_driving) StdoutLine: {'line': b'writing requirements to ../../../build/autonomous_driving/autonomous_driving.egg-info/requires.txt\n'}
+[12.649902] (autonomous_driving) StdoutLine: {'line': b'writing top-level names to ../../../build/autonomous_driving/autonomous_driving.egg-info/top_level.txt\n'}
+[12.651799] (autonomous_driving) StdoutLine: {'line': b"writing manifest file '../../../build/autonomous_driving/autonomous_driving.egg-info/SOURCES.txt'\n"}
+[12.666276] (-) TimerEvent: {}
+[12.669807] (autonomous_driving) StdoutLine: {'line': b"reading manifest file '../../../build/autonomous_driving/autonomous_driving.egg-info/SOURCES.txt'\n"}
+[12.672539] (autonomous_driving) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[12.680652] (autonomous_driving) StdoutLine: {'line': b"writing manifest file '../../../build/autonomous_driving/autonomous_driving.egg-info/SOURCES.txt'\n"}
+[12.682282] (autonomous_driving) StdoutLine: {'line': b'running build\n'}
+[12.683294] (autonomous_driving) StdoutLine: {'line': b'running build_py\n'}
+[12.685859] (autonomous_driving) StdoutLine: {'line': b'creating /home/turtle1/turtlebot3_ws/build/autonomous_driving/build\n'}
+[12.687142] (autonomous_driving) StdoutLine: {'line': b'creating /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib\n'}
+[12.688831] (autonomous_driving) StdoutLine: {'line': b'creating /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving\n'}
+[12.689998] (autonomous_driving) StdoutLine: {'line': b'copying autonomous_driving/__init__.py -> /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving\n'}
+[12.690973] (autonomous_driving) StdoutLine: {'line': b'copying autonomous_driving/publisher.py -> /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving\n'}
+[12.691844] (autonomous_driving) StdoutLine: {'line': b'copying autonomous_driving/subscriber.py -> /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving\n'}
+[12.694502] (autonomous_driving) StdoutLine: {'line': b'running install\n'}
+[12.696272] (autonomous_driving) StdoutLine: {'line': b'running install_lib\n'}
+[12.703108] (autonomous_driving) StdoutLine: {'line': b'creating /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving\n'}
+[12.704816] (autonomous_driving) StdoutLine: {'line': b'copying /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving/__init__.py -> /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving\n'}
+[12.706360] (autonomous_driving) StdoutLine: {'line': b'copying /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving/publisher.py -> /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving\n'}
+[12.708369] (autonomous_driving) StdoutLine: {'line': b'copying /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving/subscriber.py -> /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving\n'}
+[12.725437] (autonomous_driving) StdoutLine: {'line': b'byte-compiling /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving/__init__.py to __init__.cpython-310.pyc\n'}
+[12.726860] (autonomous_driving) StdoutLine: {'line': b'byte-compiling /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving/publisher.py to publisher.cpython-310.pyc\n'}
+[12.728362] (autonomous_driving) StdoutLine: {'line': b'byte-compiling /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving/subscriber.py to subscriber.cpython-310.pyc\n'}
+[12.730223] (autonomous_driving) StdoutLine: {'line': b'running install_data\n'}
+[12.732064] (autonomous_driving) StdoutLine: {'line': b'creating /home/turtle1/turtlebot3_ws/install/autonomous_driving/share/ament_index\n'}
+[12.733345] (autonomous_driving) StdoutLine: {'line': b'creating /home/turtle1/turtlebot3_ws/install/autonomous_driving/share/ament_index/resource_index\n'}
+[12.734531] (autonomous_driving) StdoutLine: {'line': b'creating /home/turtle1/turtlebot3_ws/install/autonomous_driving/share/ament_index/resource_index/packages\n'}
+[12.735550] (autonomous_driving) StdoutLine: {'line': b'copying resource/autonomous_driving -> /home/turtle1/turtlebot3_ws/install/autonomous_driving/share/ament_index/resource_index/packages\n'}
+[12.736700] (autonomous_driving) StdoutLine: {'line': b'copying package.xml -> /home/turtle1/turtlebot3_ws/install/autonomous_driving/share/autonomous_driving\n'}
+[12.737656] (autonomous_driving) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.760666] (autonomous_driving) StdoutLine: {'line': b'Copying ../../../build/autonomous_driving/autonomous_driving.egg-info to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving-0.0.0-py3.10.egg-info\n'}
+[12.766467] (-) TimerEvent: {}
+[12.776917] (autonomous_driving) StdoutLine: {'line': b'running install_scripts\n'}
+[12.866771] (-) TimerEvent: {}
+[12.968218] (-) TimerEvent: {}
+[13.002538] (autonomous_driving) StdoutLine: {'line': b'Installing sensor_info script to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/autonomous_driving\n'}
+[13.005071] (autonomous_driving) StdoutLine: {'line': b'Installing sensor_info2 script to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/autonomous_driving\n'}
+[13.008068] (autonomous_driving) StdoutLine: {'line': b"writing list of installed files to '/home/turtle1/turtlebot3_ws/build/autonomous_driving/install.log'\n"}
+[13.068619] (-) TimerEvent: {}
+[13.170337] (-) TimerEvent: {}
+[13.216816] (autonomous_driving) CommandEnded: {'returncode': 0}
+[13.270561] (-) TimerEvent: {}
+[13.372247] (-) TimerEvent: {}
+[13.375814] (autonomous_driving) JobEnded: {'identifier': 'autonomous_driving', 'rc': 0}
+[13.383236] (-) EventReactorShutdown: {}

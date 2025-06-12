@@ -1,0 +1,28 @@
+[3.079s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/sb3_inference': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/sb3_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sb3_inference build --build-base /home/turtle1/turtlebot3_ws/build/sb3_inference/build install --record /home/turtle1/turtlebot3_ws/build/sb3_inference/install.log --single-version-externally-managed install_data
+[4.329s] running egg_info
+[4.331s] writing ../../../build/sb3_inference/sb3_inference.egg-info/PKG-INFO
+[4.332s] writing dependency_links to ../../../build/sb3_inference/sb3_inference.egg-info/dependency_links.txt
+[4.333s] writing entry points to ../../../build/sb3_inference/sb3_inference.egg-info/entry_points.txt
+[4.334s] writing requirements to ../../../build/sb3_inference/sb3_inference.egg-info/requires.txt
+[4.335s] writing top-level names to ../../../build/sb3_inference/sb3_inference.egg-info/top_level.txt
+[4.345s] reading manifest file '../../../build/sb3_inference/sb3_inference.egg-info/SOURCES.txt'
+[4.346s] adding license file 'LICENSE'
+[4.349s] writing manifest file '../../../build/sb3_inference/sb3_inference.egg-info/SOURCES.txt'
+[4.350s] running build
+[4.351s] running build_py
+[4.352s] copying sb3_inference/camera_inference.py -> /home/turtle1/turtlebot3_ws/build/sb3_inference/build/lib/sb3_inference
+[4.354s] running install
+[4.356s] running install_lib
+[4.360s] copying /home/turtle1/turtlebot3_ws/build/sb3_inference/build/lib/sb3_inference/camera_inference.py -> /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages/sb3_inference
+[4.363s] byte-compiling /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages/sb3_inference/camera_inference.py to camera_inference.cpython-310.pyc
+[4.369s] running install_data
+[4.370s] running install_egg_info
+[4.381s] removing '/home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages/sb3_inference-0.0.0-py3.10.egg-info' (and everything under it)
+[4.383s] Copying ../../../build/sb3_inference/sb3_inference.egg-info to /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages/sb3_inference-0.0.0-py3.10.egg-info
+[4.388s] running install_scripts
+[4.470s] Installing ball_data script to /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/sb3_inference
+[4.471s] Installing camera_inference script to /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/sb3_inference
+[4.472s] Installing pusher_inference_old script to /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/sb3_inference
+[4.473s] Installing sonic_pub script to /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/sb3_inference
+[4.475s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/sb3_inference/install.log'
+[4.594s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/sb3_inference' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/sb3_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sb3_inference build --build-base /home/turtle1/turtlebot3_ws/build/sb3_inference/build install --record /home/turtle1/turtlebot3_ws/build/sb3_inference/install.log --single-version-externally-managed install_data

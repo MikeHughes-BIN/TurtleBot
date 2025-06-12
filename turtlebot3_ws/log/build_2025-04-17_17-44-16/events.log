@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.001851] (-) JobUnselected: {'identifier': 'ball_locator'}
+[0.003022] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.003477] (-) JobUnselected: {'identifier': 'lidar_tracking'}
+[0.004251] (-) JobUnselected: {'identifier': 'publish_sensor_info'}
+[0.004650] (-) JobUnselected: {'identifier': 'sb3_inference'}
+[0.004878] (-) JobUnselected: {'identifier': 'sb3_pusher'}
+[0.005095] (-) JobUnselected: {'identifier': 'sb3_target_driver'}
+[0.005314] (-) JobUnselected: {'identifier': 'sensor_pub'}
+[0.005542] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.005799] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.006027] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.006269] (-) JobUnselected: {'identifier': 'turtlebot3_distance_keeper'}
+[0.006488] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.006731] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.007002] (-) JobUnselected: {'identifier': 'turtlebot3_soccer'}
+[0.007234] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.007533] (pub_sub) JobQueued: {'identifier': 'pub_sub', 'dependencies': OrderedDict()}
+[0.007949] (pub_sub) JobStarted: {'identifier': 'pub_sub'}
+[0.095381] (-) TimerEvent: {}
+[0.196655] (-) TimerEvent: {}
+[0.298089] (-) TimerEvent: {}
+[0.399442] (-) TimerEvent: {}
+[0.500672] (-) TimerEvent: {}
+[0.601857] (-) TimerEvent: {}
+[0.703635] (-) TimerEvent: {}
+[0.804842] (-) TimerEvent: {}
+[0.906051] (-) TimerEvent: {}
+[1.007246] (-) TimerEvent: {}
+[1.108386] (-) TimerEvent: {}
+[1.209896] (-) TimerEvent: {}
+[1.311363] (-) TimerEvent: {}
+[1.412628] (-) TimerEvent: {}
+[1.513820] (-) TimerEvent: {}
+[1.614980] (-) TimerEvent: {}
+[1.716123] (-) TimerEvent: {}
+[1.817274] (-) TimerEvent: {}
+[1.918424] (-) TimerEvent: {}
+[2.019576] (-) TimerEvent: {}
+[2.120765] (-) TimerEvent: {}
+[2.221896] (-) TimerEvent: {}
+[2.323094] (-) TimerEvent: {}
+[2.424304] (-) TimerEvent: {}
+[2.525410] (-) TimerEvent: {}
+[2.626542] (-) TimerEvent: {}
+[2.727700] (-) TimerEvent: {}
+[2.828848] (-) TimerEvent: {}
+[2.929996] (-) TimerEvent: {}
+[3.031158] (-) TimerEvent: {}
+[3.132428] (-) TimerEvent: {}
+[3.233598] (-) TimerEvent: {}
+[3.334719] (-) TimerEvent: {}
+[3.435848] (-) TimerEvent: {}
+[3.537222] (-) TimerEvent: {}
+[3.638824] (-) TimerEvent: {}
+[3.740193] (-) TimerEvent: {}
+[3.842091] (-) TimerEvent: {}
+[3.943536] (-) TimerEvent: {}
+[4.044793] (-) TimerEvent: {}
+[4.145962] (-) TimerEvent: {}
+[4.247199] (-) TimerEvent: {}
+[4.348396] (-) TimerEvent: {}
+[4.449558] (-) TimerEvent: {}
+[4.550899] (-) TimerEvent: {}
+[4.652284] (-) TimerEvent: {}
+[4.753457] (-) TimerEvent: {}
+[4.854610] (-) TimerEvent: {}
+[4.955844] (-) TimerEvent: {}
+[5.056973] (-) TimerEvent: {}
+[5.158115] (-) TimerEvent: {}
+[5.259296] (-) TimerEvent: {}
+[5.360490] (-) TimerEvent: {}
+[5.461633] (-) TimerEvent: {}
+[5.562814] (-) TimerEvent: {}
+[5.664011] (-) TimerEvent: {}
+[5.765565] (-) TimerEvent: {}
+[5.866733] (-) TimerEvent: {}
+[5.967901] (-) TimerEvent: {}
+[6.069020] (-) TimerEvent: {}
+[6.170199] (-) TimerEvent: {}
+[6.271374] (-) TimerEvent: {}
+[6.372715] (-) TimerEvent: {}
+[6.473834] (-) TimerEvent: {}
+[6.575014] (-) TimerEvent: {}
+[6.676286] (-) TimerEvent: {}
+[6.777885] (-) TimerEvent: {}
+[6.879040] (-) TimerEvent: {}
+[6.980733] (-) TimerEvent: {}
+[7.081880] (-) TimerEvent: {}
+[7.183054] (-) TimerEvent: {}
+[7.284255] (-) TimerEvent: {}
+[7.385382] (-) TimerEvent: {}
+[7.486591] (-) TimerEvent: {}
+[7.587819] (-) TimerEvent: {}
+[7.689037] (-) TimerEvent: {}
+[7.790220] (-) TimerEvent: {}
+[7.891410] (-) TimerEvent: {}
+[7.992656] (-) TimerEvent: {}
+[8.093947] (-) TimerEvent: {}
+[8.195630] (-) TimerEvent: {}
+[8.256705] (pub_sub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/pub_sub', 'build', '--build-base', '/home/turtle1/turtlebot3_ws/build/pub_sub/build', 'install', '--record', '/home/turtle1/turtlebot3_ws/build/pub_sub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/turtle1/turtlebot3_ws/src/turtlebot3/pub_sub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turtle1', 'SSH_CLIENT': '192.168.0.104 59416 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/turtle1', 'OLDPWD': '/home/turtle1/turtlebot3_ws/src', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'turtle1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/turtle1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install/turtlebot3:/home/turtle1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer:/home/turtle1/turtlebot3_ws/install/turtlebot3_bringup:/home/turtle1/turtlebot3_ws/install/turtlebot3_node:/home/turtle1/turtlebot3_ws/install/turtlebot3_example:/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper:/home/turtle1/turtlebot3_ws/install/turtlebot3_description:/home/turtle1/turtlebot3_ws/install/sensor_pub:/home/turtle1/turtlebot3_ws/install/sb3_target_driver:/home/turtle1/turtlebot3_ws/install/sb3_pusher:/home/turtle1/turtlebot3_ws/install/sb3_inference:/home/turtle1/turtlebot3_ws/install/publish_sensor_info:/home/turtle1/turtlebot3_ws/install/lidar_tracking:/home/turtle1/turtlebot3_ws/install/ld08_driver:/home/turtle1/turtlebot3_ws/install/ball_locator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/turtle1/turtlebot3_ws/build/pub_sub', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '192.168.0.104 59416 192.168.0.105 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/turtle1/turtlebot3_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sb3_target_driver/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sb3_pusher/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install/turtlebot3:/home/turtle1/turtlebot3_ws/install/turtlebot3_bringup:/home/turtle1/turtlebot3_ws/install/turtlebot3_node:/home/turtle1/turtlebot3_ws/install/turtlebot3_description:/home/turtle1/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[8.296036] (-) TimerEvent: {}
+[8.399996] (-) TimerEvent: {}
+[8.501170] (-) TimerEvent: {}
+[8.602350] (-) TimerEvent: {}
+[8.703457] (-) TimerEvent: {}
+[8.804690] (-) TimerEvent: {}
+[8.905828] (-) TimerEvent: {}
+[9.006942] (-) TimerEvent: {}
+[9.108231] (-) TimerEvent: {}
+[9.209384] (-) TimerEvent: {}
+[9.310588] (-) TimerEvent: {}
+[9.411808] (-) TimerEvent: {}
+[9.512991] (-) TimerEvent: {}
+[9.614213] (-) TimerEvent: {}
+[9.715415] (-) TimerEvent: {}
+[9.816588] (-) TimerEvent: {}
+[9.917761] (-) TimerEvent: {}
+[10.018923] (-) TimerEvent: {}
+[10.120434] (-) TimerEvent: {}
+[10.221649] (-) TimerEvent: {}
+[10.322772] (-) TimerEvent: {}
+[10.423926] (-) TimerEvent: {}
+[10.525095] (-) TimerEvent: {}
+[10.626201] (-) TimerEvent: {}
+[10.727358] (-) TimerEvent: {}
+[10.828601] (-) TimerEvent: {}
+[10.929760] (-) TimerEvent: {}
+[11.030908] (-) TimerEvent: {}
+[11.132135] (-) TimerEvent: {}
+[11.233223] (-) TimerEvent: {}
+[11.334372] (-) TimerEvent: {}
+[11.435547] (-) TimerEvent: {}
+[11.536958] (-) TimerEvent: {}
+[11.638684] (-) TimerEvent: {}
+[11.740094] (-) TimerEvent: {}
+[11.841742] (-) TimerEvent: {}
+[11.883164] (pub_sub) StdoutLine: {'line': b'running egg_info\n'}
+[11.890312] (pub_sub) StdoutLine: {'line': b'writing ../../../build/pub_sub/pub_sub.egg-info/PKG-INFO\n'}
+[11.892645] (pub_sub) StdoutLine: {'line': b'writing dependency_links to ../../../build/pub_sub/pub_sub.egg-info/dependency_links.txt\n'}
+[11.894507] (pub_sub) StdoutLine: {'line': b'writing entry points to ../../../build/pub_sub/pub_sub.egg-info/entry_points.txt\n'}
+[11.897193] (pub_sub) StdoutLine: {'line': b'writing requirements to ../../../build/pub_sub/pub_sub.egg-info/requires.txt\n'}
+[11.898768] (pub_sub) StdoutLine: {'line': b'writing top-level names to ../../../build/pub_sub/pub_sub.egg-info/top_level.txt\n'}
+[11.919485] (pub_sub) StdoutLine: {'line': b"reading manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'\n"}
+[11.923136] (pub_sub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[11.930992] (pub_sub) StdoutLine: {'line': b"writing manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'\n"}
+[11.932928] (pub_sub) StdoutLine: {'line': b'running build\n'}
+[11.933824] (pub_sub) StdoutLine: {'line': b'running build_py\n'}
+[11.935991] (pub_sub) StdoutLine: {'line': b'copying pub_sub/subscriber.py -> /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub\n'}
+[11.938738] (pub_sub) StdoutLine: {'line': b'running install\n'}
+[11.943779] (pub_sub) StdoutLine: {'line': b'running install_lib\n'}
+[11.944967] (-) TimerEvent: {}
+[11.952000] (pub_sub) StdoutLine: {'line': b'copying /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub/subscriber.py -> /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub\n'}
+[11.960407] (pub_sub) StdoutLine: {'line': b'byte-compiling /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/subscriber.py to subscriber.cpython-310.pyc\n'}
+[11.965314] (pub_sub) StdoutLine: {'line': b'running install_data\n'}
+[11.967455] (pub_sub) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.994407] (pub_sub) StdoutLine: {'line': b"removing '/home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.998836] (pub_sub) StdoutLine: {'line': b'Copying ../../../build/pub_sub/pub_sub.egg-info to /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info\n'}
+[12.014962] (pub_sub) StdoutLine: {'line': b'running install_scripts\n'}
+[12.045260] (-) TimerEvent: {}
+[12.146530] (-) TimerEvent: {}
+[12.236008] (pub_sub) StdoutLine: {'line': b'Installing pub script to /home/turtle1/turtlebot3_ws/install/pub_sub/lib/pub_sub\n'}
+[12.239780] (pub_sub) StdoutLine: {'line': b"writing list of installed files to '/home/turtle1/turtlebot3_ws/build/pub_sub/install.log'\n"}
+[12.246864] (-) TimerEvent: {}
+[12.349534] (-) TimerEvent: {}
+[12.446815] (pub_sub) CommandEnded: {'returncode': 0}
+[12.449901] (-) TimerEvent: {}
+[12.563617] (-) TimerEvent: {}
+[12.571872] (pub_sub) JobEnded: {'identifier': 'pub_sub', 'rc': 0}
+[12.578182] (-) EventReactorShutdown: {}

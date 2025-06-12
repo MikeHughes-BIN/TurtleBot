@@ -1,0 +1,29 @@
+[9.690s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/autonomous_driving': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/autonomous_driving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/autonomous_driving build --build-base /home/turtle1/turtlebot3_ws/build/autonomous_driving/build install --record /home/turtle1/turtlebot3_ws/build/autonomous_driving/install.log --single-version-externally-managed install_data
+[13.413s] running egg_info
+[13.420s] writing ../../../build/autonomous_driving/autonomous_driving.egg-info/PKG-INFO
+[13.423s] writing dependency_links to ../../../build/autonomous_driving/autonomous_driving.egg-info/dependency_links.txt
+[13.426s] writing entry points to ../../../build/autonomous_driving/autonomous_driving.egg-info/entry_points.txt
+[13.435s] writing requirements to ../../../build/autonomous_driving/autonomous_driving.egg-info/requires.txt
+[13.440s] writing top-level names to ../../../build/autonomous_driving/autonomous_driving.egg-info/top_level.txt
+[13.452s] reading manifest file '../../../build/autonomous_driving/autonomous_driving.egg-info/SOURCES.txt'
+[13.459s] adding license file 'LICENSE'
+[13.468s] writing manifest file '../../../build/autonomous_driving/autonomous_driving.egg-info/SOURCES.txt'
+[13.470s] running build
+[13.472s] running build_py
+[13.474s] copying autonomous_driving/publisher.py -> /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving
+[13.480s] copying autonomous_driving/subscriber.py -> /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving
+[13.481s] running install
+[13.484s] running install_lib
+[13.492s] copying /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving/publisher.py -> /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving
+[13.494s] copying /home/turtle1/turtlebot3_ws/build/autonomous_driving/build/lib/autonomous_driving/subscriber.py -> /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving
+[13.504s] byte-compiling /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving/publisher.py to publisher.cpython-310.pyc
+[13.511s] byte-compiling /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving/subscriber.py to subscriber.cpython-310.pyc
+[13.519s] running install_data
+[13.520s] running install_egg_info
+[13.547s] removing '/home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving-0.0.0-py3.10.egg-info' (and everything under it)
+[13.553s] Copying ../../../build/autonomous_driving/autonomous_driving.egg-info to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving-0.0.0-py3.10.egg-info
+[13.577s] running install_scripts
+[13.829s] Installing sensor_info script to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/autonomous_driving
+[13.832s] Installing sensor_info2 script to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/autonomous_driving
+[13.837s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/autonomous_driving/install.log'
+[14.093s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/autonomous_driving' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/autonomous_driving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/autonomous_driving build --build-base /home/turtle1/turtlebot3_ws/build/autonomous_driving/build install --record /home/turtle1/turtlebot3_ws/build/autonomous_driving/install.log --single-version-externally-managed install_data

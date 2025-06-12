@@ -1,0 +1,39 @@
+[8.187s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/pub_sub': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pub_sub build --build-base /home/turtle1/turtlebot3_ws/build/pub_sub/build install --record /home/turtle1/turtlebot3_ws/build/pub_sub/install.log --single-version-externally-managed install_data
+[11.492s] running egg_info
+[11.498s] creating ../../../build/pub_sub/pub_sub.egg-info
+[11.500s] writing ../../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[11.502s] writing dependency_links to ../../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[11.503s] writing entry points to ../../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[11.505s] writing requirements to ../../../build/pub_sub/pub_sub.egg-info/requires.txt
+[11.505s] writing top-level names to ../../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[11.507s] writing manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[11.524s] reading manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[11.527s] adding license file 'LICENSE'
+[11.534s] writing manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[11.535s] running build
+[11.536s] running build_py
+[11.537s] creating /home/turtle1/turtlebot3_ws/build/pub_sub/build
+[11.539s] creating /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib
+[11.540s] creating /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub
+[11.541s] copying pub_sub/__init__.py -> /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub
+[11.542s] copying pub_sub/publisher.py -> /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub
+[11.542s] running install
+[11.545s] running install_lib
+[11.552s] creating /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[11.553s] copying /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[11.555s] copying /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub/publisher.py -> /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[11.562s] byte-compiling /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/__init__.py to __init__.cpython-310.pyc
+[11.565s] byte-compiling /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/publisher.py to publisher.cpython-310.pyc
+[11.568s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (publisher.py, line 26)
+[11.569s] running install_data
+[11.570s] creating /home/turtle1/turtlebot3_ws/install/pub_sub/share/ament_index
+[11.571s] creating /home/turtle1/turtlebot3_ws/install/pub_sub/share/ament_index/resource_index
+[11.572s] creating /home/turtle1/turtlebot3_ws/install/pub_sub/share/ament_index/resource_index/packages
+[11.573s] copying resource/pub_sub -> /home/turtle1/turtlebot3_ws/install/pub_sub/share/ament_index/resource_index/packages
+[11.574s] copying package.xml -> /home/turtle1/turtlebot3_ws/install/pub_sub/share/pub_sub
+[11.575s] running install_egg_info
+[11.600s] Copying ../../../build/pub_sub/pub_sub.egg-info to /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[11.613s] running install_scripts
+[11.820s] Installing pub script to /home/turtle1/turtlebot3_ws/install/pub_sub/lib/pub_sub
+[11.823s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/pub_sub/install.log'
+[12.017s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/pub_sub' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pub_sub build --build-base /home/turtle1/turtlebot3_ws/build/pub_sub/build install --record /home/turtle1/turtlebot3_ws/build/pub_sub/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+sensor_info = autonomous_driving.publisher:main
+sensor_info2 = autonomous_driving.subscriber:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+inference = sb3_pusher.camera_inference:main
+

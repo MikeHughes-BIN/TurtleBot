@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.002487] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.008026] (-) JobUnselected: {'identifier': 'lidar_tracking'}
+[0.008311] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.008432] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.008992] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.009171] (-) JobUnselected: {'identifier': 'turtlebot3_distance_keeper'}
+[0.009806] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.010524] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.011105] (-) JobUnselected: {'identifier': 'turtlebot3_soccer'}
+[0.012494] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.013655] (sb3_inference) JobQueued: {'identifier': 'sb3_inference', 'dependencies': OrderedDict()}
+[0.014459] (sb3_inference) JobStarted: {'identifier': 'sb3_inference'}
+[0.097898] (-) TimerEvent: {}
+[0.198536] (-) TimerEvent: {}
+[0.299178] (-) TimerEvent: {}
+[0.399909] (-) TimerEvent: {}
+[0.500634] (-) TimerEvent: {}
+[0.601316] (-) TimerEvent: {}
+[0.701995] (-) TimerEvent: {}
+[0.802681] (-) TimerEvent: {}
+[0.903330] (-) TimerEvent: {}
+[1.004026] (-) TimerEvent: {}
+[1.104721] (-) TimerEvent: {}
+[1.205410] (-) TimerEvent: {}
+[1.306078] (-) TimerEvent: {}
+[1.406793] (-) TimerEvent: {}
+[1.507549] (-) TimerEvent: {}
+[1.608598] (-) TimerEvent: {}
+[1.718345] (-) TimerEvent: {}
+[1.819165] (-) TimerEvent: {}
+[1.919918] (-) TimerEvent: {}
+[2.020651] (-) TimerEvent: {}
+[2.121450] (-) TimerEvent: {}
+[2.222192] (-) TimerEvent: {}
+[2.322917] (-) TimerEvent: {}
+[2.423621] (-) TimerEvent: {}
+[2.524360] (-) TimerEvent: {}
+[2.625145] (-) TimerEvent: {}
+[2.725885] (-) TimerEvent: {}
+[2.826577] (-) TimerEvent: {}
+[2.927258] (-) TimerEvent: {}
+[3.028054] (-) TimerEvent: {}
+[3.128818] (-) TimerEvent: {}
+[3.229612] (-) TimerEvent: {}
+[3.330487] (-) TimerEvent: {}
+[3.433395] (-) TimerEvent: {}
+[3.462663] (sb3_inference) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/sb3_inference', 'build', '--build-base', '/home/turtle1/turtlebot3_ws/build/sb3_inference/build', 'install', '--record', '/home/turtle1/turtlebot3_ws/build/sb3_inference/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/turtle1/turtlebot3_ws/src/turtlebot3/sb3_inference', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,2214,0', 'USER': 'turtle1', 'SSH_CLIENT': '192.168.0.110 2003 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/turtle1', 'OLDPWD': '/home/turtle1', 'TERM_PROGRAM_VERSION': '3.2a', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'turtle1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/turtle1/.local/bin:/home/turtle1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install/turtlebot3:/home/turtle1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer:/home/turtle1/turtlebot3_ws/install/turtlebot3_bringup:/home/turtle1/turtlebot3_ws/install/turtlebot3_node:/home/turtle1/turtlebot3_ws/install/turtlebot3_example:/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper:/home/turtle1/turtlebot3_ws/install/turtlebot3_description:/home/turtle1/turtlebot3_ws/install/sb3_inference:/home/turtle1/turtlebot3_ws/install/lidar_tracking:/home/turtle1/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/turtle1/turtlebot3_ws/build/sb3_inference', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '192.168.0.110 2003 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/turtle1/turtlebot3_ws/build/sb3_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages:/home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/turtle1/turtlebot3_ws/install/turtlebot3:/home/turtle1/turtlebot3_ws/install/turtlebot3_bringup:/home/turtle1/turtlebot3_ws/install/turtlebot3_node:/home/turtle1/turtlebot3_ws/install/turtlebot3_description:/home/turtle1/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[3.533576] (-) TimerEvent: {}
+[3.636136] (-) TimerEvent: {}
+[3.736901] (-) TimerEvent: {}
+[3.837669] (-) TimerEvent: {}
+[3.939550] (-) TimerEvent: {}
+[4.040398] (-) TimerEvent: {}
+[4.141066] (-) TimerEvent: {}
+[4.241702] (-) TimerEvent: {}
+[4.342382] (-) TimerEvent: {}
+[4.443080] (-) TimerEvent: {}
+[4.544159] (-) TimerEvent: {}
+[4.644823] (-) TimerEvent: {}
+[4.745534] (-) TimerEvent: {}
+[4.846221] (-) TimerEvent: {}
+[4.946912] (-) TimerEvent: {}
+[5.008843] (sb3_inference) StdoutLine: {'line': b'running egg_info\n'}
+[5.013371] (sb3_inference) StdoutLine: {'line': b'writing ../../../build/sb3_inference/sb3_inference.egg-info/PKG-INFO\n'}
+[5.016166] (sb3_inference) StdoutLine: {'line': b'writing dependency_links to ../../../build/sb3_inference/sb3_inference.egg-info/dependency_links.txt\n'}
+[5.017236] (sb3_inference) StdoutLine: {'line': b'writing entry points to ../../../build/sb3_inference/sb3_inference.egg-info/entry_points.txt\n'}
+[5.018283] (sb3_inference) StdoutLine: {'line': b'writing requirements to ../../../build/sb3_inference/sb3_inference.egg-info/requires.txt\n'}
+[5.020477] (sb3_inference) StdoutLine: {'line': b'writing top-level names to ../../../build/sb3_inference/sb3_inference.egg-info/top_level.txt\n'}
+[5.032163] (sb3_inference) StdoutLine: {'line': b"reading manifest file '../../../build/sb3_inference/sb3_inference.egg-info/SOURCES.txt'\n"}
+[5.033660] (sb3_inference) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.036975] (sb3_inference) StdoutLine: {'line': b"writing manifest file '../../../build/sb3_inference/sb3_inference.egg-info/SOURCES.txt'\n"}
+[5.037872] (sb3_inference) StdoutLine: {'line': b'running build\n'}
+[5.038640] (sb3_inference) StdoutLine: {'line': b'running build_py\n'}
+[5.039368] (sb3_inference) StdoutLine: {'line': b'copying sb3_inference/pusher_inference.py -> /home/turtle1/turtlebot3_ws/build/sb3_inference/build/lib/sb3_inference\n'}
+[5.041169] (sb3_inference) StdoutLine: {'line': b'running install\n'}
+[5.042478] (sb3_inference) StdoutLine: {'line': b'running install_lib\n'}
+[5.046422] (sb3_inference) StdoutLine: {'line': b'copying /home/turtle1/turtlebot3_ws/build/sb3_inference/build/lib/sb3_inference/pusher_inference.py -> /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages/sb3_inference\n'}
+[5.046982] (-) TimerEvent: {}
+[5.050331] (sb3_inference) StdoutLine: {'line': b'byte-compiling /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages/sb3_inference/pusher_inference.py to pusher_inference.cpython-310.pyc\n'}
+[5.054633] (sb3_inference) StdoutLine: {'line': b'running install_data\n'}
+[5.055546] (sb3_inference) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.069903] (sb3_inference) StdoutLine: {'line': b"removing '/home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages/sb3_inference-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.071868] (sb3_inference) StdoutLine: {'line': b'Copying ../../../build/sb3_inference/sb3_inference.egg-info to /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/python3.10/site-packages/sb3_inference-0.0.0-py3.10.egg-info\n'}
+[5.084836] (sb3_inference) StdoutLine: {'line': b'running install_scripts\n'}
+[5.147252] (-) TimerEvent: {}
+[5.179794] (sb3_inference) StdoutLine: {'line': b'Installing pusher_inference script to /home/turtle1/turtlebot3_ws/install/sb3_inference/lib/sb3_inference\n'}
+[5.182497] (sb3_inference) StdoutLine: {'line': b"writing list of installed files to '/home/turtle1/turtlebot3_ws/build/sb3_inference/install.log'\n"}
+[5.247650] (-) TimerEvent: {}
+[5.329500] (sb3_inference) CommandEnded: {'returncode': 0}
+[5.347839] (-) TimerEvent: {}
+[5.390887] (sb3_inference) JobEnded: {'identifier': 'sb3_inference', 'rc': 0}
+[5.394650] (-) EventReactorShutdown: {}

@@ -1,0 +1,42 @@
+[9.663s] Invoking command in '/home/turtle1/turtlebot3_ws/src/tb3_rl/sensor_pub': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/sensor_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_pub build --build-base /home/turtle1/turtlebot3_ws/build/sensor_pub/build install --record /home/turtle1/turtlebot3_ws/build/sensor_pub/install.log --single-version-externally-managed install_data
+[15.635s] running egg_info
+[15.640s] creating ../../../build/sensor_pub/sensor_pub.egg-info
+[15.649s] writing ../../../build/sensor_pub/sensor_pub.egg-info/PKG-INFO
+[15.652s] writing dependency_links to ../../../build/sensor_pub/sensor_pub.egg-info/dependency_links.txt
+[15.653s] writing entry points to ../../../build/sensor_pub/sensor_pub.egg-info/entry_points.txt
+[15.663s] writing requirements to ../../../build/sensor_pub/sensor_pub.egg-info/requires.txt
+[15.666s] writing top-level names to ../../../build/sensor_pub/sensor_pub.egg-info/top_level.txt
+[15.674s] writing manifest file '../../../build/sensor_pub/sensor_pub.egg-info/SOURCES.txt'
+[15.710s] reading manifest file '../../../build/sensor_pub/sensor_pub.egg-info/SOURCES.txt'
+[15.713s] adding license file 'LICENSE'
+[15.726s] writing manifest file '../../../build/sensor_pub/sensor_pub.egg-info/SOURCES.txt'
+[15.731s] running build
+[15.733s] running build_py
+[15.736s] creating /home/turtle1/turtlebot3_ws/build/sensor_pub/build
+[15.737s] creating /home/turtle1/turtlebot3_ws/build/sensor_pub/build/lib
+[15.738s] creating /home/turtle1/turtlebot3_ws/build/sensor_pub/build/lib/sensor_pub
+[15.739s] copying sensor_pub/sonic_sensor.py -> /home/turtle1/turtlebot3_ws/build/sensor_pub/build/lib/sensor_pub
+[15.740s] copying sensor_pub/__init__.py -> /home/turtle1/turtlebot3_ws/build/sensor_pub/build/lib/sensor_pub
+[15.740s] copying sensor_pub/receive_ball_data.py -> /home/turtle1/turtlebot3_ws/build/sensor_pub/build/lib/sensor_pub
+[15.748s] running install
+[15.750s] running install_lib
+[15.755s] creating /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages/sensor_pub
+[15.760s] copying /home/turtle1/turtlebot3_ws/build/sensor_pub/build/lib/sensor_pub/sonic_sensor.py -> /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages/sensor_pub
+[15.769s] copying /home/turtle1/turtlebot3_ws/build/sensor_pub/build/lib/sensor_pub/__init__.py -> /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages/sensor_pub
+[15.770s] copying /home/turtle1/turtlebot3_ws/build/sensor_pub/build/lib/sensor_pub/receive_ball_data.py -> /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages/sensor_pub
+[15.775s] byte-compiling /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages/sensor_pub/sonic_sensor.py to sonic_sensor.cpython-310.pyc
+[15.781s] byte-compiling /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages/sensor_pub/__init__.py to __init__.cpython-310.pyc
+[15.785s] byte-compiling /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages/sensor_pub/receive_ball_data.py to receive_ball_data.cpython-310.pyc
+[15.794s] running install_data
+[15.801s] creating /home/turtle1/turtlebot3_ws/install/sensor_pub/share/ament_index
+[15.803s] creating /home/turtle1/turtlebot3_ws/install/sensor_pub/share/ament_index/resource_index
+[15.806s] creating /home/turtle1/turtlebot3_ws/install/sensor_pub/share/ament_index/resource_index/packages
+[15.808s] copying resource/sensor_pub -> /home/turtle1/turtlebot3_ws/install/sensor_pub/share/ament_index/resource_index/packages
+[15.812s] copying package.xml -> /home/turtle1/turtlebot3_ws/install/sensor_pub/share/sensor_pub
+[15.814s] running install_egg_info
+[15.853s] Copying ../../../build/sensor_pub/sensor_pub.egg-info to /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages/sensor_pub-0.0.0-py3.10.egg-info
+[15.884s] running install_scripts
+[16.161s] Installing receive_ball script to /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/sensor_pub
+[16.176s] Installing sonic_bumper_pub script to /home/turtle1/turtlebot3_ws/install/sensor_pub/lib/sensor_pub
+[16.183s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/sensor_pub/install.log'
+[16.626s] Invoked command in '/home/turtle1/turtlebot3_ws/src/tb3_rl/sensor_pub' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/sensor_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/sensor_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_pub build --build-base /home/turtle1/turtlebot3_ws/build/sensor_pub/build install --record /home/turtle1/turtlebot3_ws/build/sensor_pub/install.log --single-version-externally-managed install_data

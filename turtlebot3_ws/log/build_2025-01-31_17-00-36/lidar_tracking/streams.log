@@ -1,0 +1,50 @@
+[11.860s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/lidar_tracking': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/lidar_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lidar_tracking build --build-base /home/turtle1/turtlebot3_ws/build/lidar_tracking/build install --record /home/turtle1/turtlebot3_ws/build/lidar_tracking/install.log --single-version-externally-managed install_data
+[15.524s] running egg_info
+[15.535s] creating ../../../build/lidar_tracking/lidar_tracking.egg-info
+[15.546s] writing ../../../build/lidar_tracking/lidar_tracking.egg-info/PKG-INFO
+[15.547s] writing dependency_links to ../../../build/lidar_tracking/lidar_tracking.egg-info/dependency_links.txt
+[15.548s] writing entry points to ../../../build/lidar_tracking/lidar_tracking.egg-info/entry_points.txt
+[15.548s] writing requirements to ../../../build/lidar_tracking/lidar_tracking.egg-info/requires.txt
+[15.549s] writing top-level names to ../../../build/lidar_tracking/lidar_tracking.egg-info/top_level.txt
+[15.550s] writing manifest file '../../../build/lidar_tracking/lidar_tracking.egg-info/SOURCES.txt'
+[15.551s] reading manifest file '../../../build/lidar_tracking/lidar_tracking.egg-info/SOURCES.txt'
+[15.551s] adding license file 'LICENSE'
+[15.582s] writing manifest file '../../../build/lidar_tracking/lidar_tracking.egg-info/SOURCES.txt'
+[15.583s] running build
+[15.583s] running build_py
+[15.584s] creating /home/turtle1/turtlebot3_ws/build/lidar_tracking/build
+[15.584s] creating /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib
+[15.585s] creating /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+[15.585s] copying lidar_tracking/follow_ball.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+[15.587s] copying lidar_tracking/reset_odom.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+[15.590s] copying lidar_tracking/find_circle.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+[15.591s] copying lidar_tracking/__init__.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+[15.591s] copying lidar_tracking/find_arc.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+[15.591s] copying lidar_tracking/publish_lidar_data.py -> /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking
+[15.592s] running install
+[15.592s] running install_lib
+[15.598s] creating /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+[15.620s] copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/follow_ball.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+[15.620s] copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/reset_odom.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+[15.621s] copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/find_circle.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+[15.621s] copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/__init__.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+[15.622s] copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/find_arc.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+[15.622s] copying /home/turtle1/turtlebot3_ws/build/lidar_tracking/build/lib/lidar_tracking/publish_lidar_data.py -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking
+[15.623s] byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/follow_ball.py to follow_ball.cpython-310.pyc
+[15.623s] byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/reset_odom.py to reset_odom.cpython-310.pyc
+[15.637s] byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/find_circle.py to find_circle.cpython-310.pyc
+[15.639s] byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/__init__.py to __init__.cpython-310.pyc
+[15.643s] byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/find_arc.py to find_arc.cpython-310.pyc
+[15.644s] byte-compiling /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking/publish_lidar_data.py to publish_lidar_data.cpython-310.pyc
+[15.662s] running install_data
+[15.665s] creating /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/ament_index
+[15.670s] creating /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/ament_index/resource_index
+[15.671s] creating /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/ament_index/resource_index/packages
+[15.671s] copying resource/lidar_tracking -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/ament_index/resource_index/packages
+[15.678s] copying package.xml -> /home/turtle1/turtlebot3_ws/install/lidar_tracking/share/lidar_tracking
+[15.679s] running install_egg_info
+[15.680s] Copying ../../../build/lidar_tracking/lidar_tracking.egg-info to /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages/lidar_tracking-0.0.0-py3.10.egg-info
+[15.680s] running install_scripts
+[15.786s] Installing findball script to /home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/lidar_tracking
+[15.790s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/lidar_tracking/install.log'
+[15.993s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/lidar_tracking' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/lidar_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/lidar_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lidar_tracking build --build-base /home/turtle1/turtlebot3_ws/build/lidar_tracking/build install --record /home/turtle1/turtlebot3_ws/build/lidar_tracking/install.log --single-version-externally-managed install_data

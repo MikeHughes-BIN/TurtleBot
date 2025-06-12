@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.002651] (-) JobUnselected: {'identifier': 'ball_locator'}
+[0.003162] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.003957] (-) JobUnselected: {'identifier': 'lidar_tracking'}
+[0.004674] (-) JobUnselected: {'identifier': 'publish_sensor_info'}
+[0.005021] (-) JobUnselected: {'identifier': 'sb3_inference'}
+[0.005246] (-) JobUnselected: {'identifier': 'sb3_pusher'}
+[0.005463] (-) JobUnselected: {'identifier': 'sb3_target_driver'}
+[0.005676] (-) JobUnselected: {'identifier': 'sensor_pub'}
+[0.005886] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.006095] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.006306] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.006516] (-) JobUnselected: {'identifier': 'turtlebot3_distance_keeper'}
+[0.006726] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.006935] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.007145] (-) JobUnselected: {'identifier': 'turtlebot3_soccer'}
+[0.007363] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.007594] (pub_sub) JobQueued: {'identifier': 'pub_sub', 'dependencies': OrderedDict()}
+[0.007908] (pub_sub) JobStarted: {'identifier': 'pub_sub'}
+[0.095333] (-) TimerEvent: {}
+[0.196443] (-) TimerEvent: {}
+[0.297660] (-) TimerEvent: {}
+[0.398788] (-) TimerEvent: {}
+[0.500017] (-) TimerEvent: {}
+[0.601181] (-) TimerEvent: {}
+[0.702378] (-) TimerEvent: {}
+[0.803565] (-) TimerEvent: {}
+[0.904812] (-) TimerEvent: {}
+[1.006002] (-) TimerEvent: {}
+[1.107210] (-) TimerEvent: {}
+[1.208613] (-) TimerEvent: {}
+[1.309751] (-) TimerEvent: {}
+[1.410946] (-) TimerEvent: {}
+[1.512129] (-) TimerEvent: {}
+[1.613261] (-) TimerEvent: {}
+[1.714470] (-) TimerEvent: {}
+[1.815682] (-) TimerEvent: {}
+[1.916834] (-) TimerEvent: {}
+[2.018006] (-) TimerEvent: {}
+[2.119122] (-) TimerEvent: {}
+[2.220343] (-) TimerEvent: {}
+[2.321564] (-) TimerEvent: {}
+[2.422681] (-) TimerEvent: {}
+[2.523813] (-) TimerEvent: {}
+[2.625006] (-) TimerEvent: {}
+[2.726188] (-) TimerEvent: {}
+[2.827391] (-) TimerEvent: {}
+[2.929087] (-) TimerEvent: {}
+[3.030211] (-) TimerEvent: {}
+[3.131323] (-) TimerEvent: {}
+[3.232567] (-) TimerEvent: {}
+[3.333883] (-) TimerEvent: {}
+[3.435038] (-) TimerEvent: {}
+[3.536275] (-) TimerEvent: {}
+[3.637638] (-) TimerEvent: {}
+[3.739263] (-) TimerEvent: {}
+[3.799360] (pub_sub) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[3.803769] (pub_sub) JobEnded: {'identifier': 'pub_sub', 'rc': 1}
+[3.813312] (-) EventReactorShutdown: {}

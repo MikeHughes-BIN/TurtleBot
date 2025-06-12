@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../build/ball_locator/ball_locator.egg-info
+writing ../../../build/ball_locator/ball_locator.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ball_locator/ball_locator.egg-info/dependency_links.txt
+writing entry points to ../../../build/ball_locator/ball_locator.egg-info/entry_points.txt
+writing requirements to ../../../build/ball_locator/ball_locator.egg-info/requires.txt
+writing top-level names to ../../../build/ball_locator/ball_locator.egg-info/top_level.txt
+writing manifest file '../../../build/ball_locator/ball_locator.egg-info/SOURCES.txt'
+reading manifest file '../../../build/ball_locator/ball_locator.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/ball_locator/ball_locator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/turtle1/turtlebot3_ws/build/ball_locator/build
+creating /home/turtle1/turtlebot3_ws/build/ball_locator/build/lib
+creating /home/turtle1/turtlebot3_ws/build/ball_locator/build/lib/ball_locator
+copying ball_locator/__init__.py -> /home/turtle1/turtlebot3_ws/build/ball_locator/build/lib/ball_locator
+copying ball_locator/ball_locator_inference.py -> /home/turtle1/turtlebot3_ws/build/ball_locator/build/lib/ball_locator
+running install
+running install_lib
+creating /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator
+copying /home/turtle1/turtlebot3_ws/build/ball_locator/build/lib/ball_locator/__init__.py -> /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator
+copying /home/turtle1/turtlebot3_ws/build/ball_locator/build/lib/ball_locator/ball_locator_inference.py -> /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator
+byte-compiling /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator/ball_locator_inference.py to ball_locator_inference.cpython-310.pyc
+running install_data
+creating /home/turtle1/turtlebot3_ws/install/ball_locator/share/ament_index
+creating /home/turtle1/turtlebot3_ws/install/ball_locator/share/ament_index/resource_index
+creating /home/turtle1/turtlebot3_ws/install/ball_locator/share/ament_index/resource_index/packages
+copying resource/ball_locator -> /home/turtle1/turtlebot3_ws/install/ball_locator/share/ament_index/resource_index/packages
+copying package.xml -> /home/turtle1/turtlebot3_ws/install/ball_locator/share/ball_locator
+running install_egg_info
+Copying ../../../build/ball_locator/ball_locator.egg-info to /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ball_locator script to /home/turtle1/turtlebot3_ws/install/ball_locator/lib/ball_locator
+writing list of installed files to '/home/turtle1/turtlebot3_ws/build/ball_locator/install.log'

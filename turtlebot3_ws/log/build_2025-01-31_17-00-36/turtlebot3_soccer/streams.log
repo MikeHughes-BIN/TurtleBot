@@ -1,0 +1,48 @@
+[15.456s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/turtlebot3_soccer': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_soccer build --build-base /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build install --record /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/install.log --single-version-externally-managed install_data
+[23.699s] running egg_info
+[23.719s] creating ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info
+[23.729s] writing ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/PKG-INFO
+[23.751s] writing dependency_links to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/dependency_links.txt
+[23.756s] writing entry points to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/entry_points.txt
+[23.768s] writing requirements to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/requires.txt
+[23.777s] writing top-level names to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/top_level.txt
+[23.798s] writing manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+[23.841s] reading manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+[23.859s] adding license file 'LICENSE'
+[23.879s] writing manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+[23.898s] running build
+[23.898s] running build_py
+[23.902s] creating /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build
+[23.904s] creating /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib
+[23.911s] creating /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+[23.927s] copying turtlebot3_soccer/publish_image.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+[23.940s] copying turtlebot3_soccer/receive_image_info.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+[23.956s] copying turtlebot3_soccer/test_connection.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+[23.966s] copying turtlebot3_soccer/__init__.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+[23.980s] copying turtlebot3_soccer/move_to_ball.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+[24.008s] running install
+[24.016s] running install_lib
+[24.062s] creating /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+[24.072s] copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/publish_image.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+[24.089s] copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/receive_image_info.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+[24.112s] copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/test_connection.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+[24.124s] copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/__init__.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+[24.128s] copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/move_to_ball.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+[24.168s] byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/publish_image.py to publish_image.cpython-310.pyc
+[24.188s] byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/receive_image_info.py to receive_image_info.cpython-310.pyc
+[24.212s] byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/test_connection.py to test_connection.cpython-310.pyc
+[24.222s] byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/__init__.py to __init__.cpython-310.pyc
+[24.230s] byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/move_to_ball.py to move_to_ball.cpython-310.pyc
+[24.248s] running install_data
+[24.251s] creating /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/ament_index
+[24.257s] creating /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/ament_index/resource_index
+[24.265s] creating /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/ament_index/resource_index/packages
+[24.281s] copying resource/turtlebot3_soccer -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/ament_index/resource_index/packages
+[24.282s] copying package.xml -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/turtlebot3_soccer
+[24.292s] running install_egg_info
+[24.362s] Copying ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer-0.0.0-py3.10.egg-info
+[24.376s] running install_scripts
+[25.129s] Installing publish_image script to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/turtlebot3_soccer
+[25.129s] Installing soccer script to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/turtlebot3_soccer
+[25.156s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/install.log'
+[25.812s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/turtlebot3_soccer' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_soccer build --build-base /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build install --record /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/install.log --single-version-externally-managed install_data

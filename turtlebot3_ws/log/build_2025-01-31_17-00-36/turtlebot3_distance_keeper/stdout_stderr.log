@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info
+writing ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/PKG-INFO
+writing dependency_links to ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/dependency_links.txt
+writing entry points to ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/entry_points.txt
+writing requirements to ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/requires.txt
+writing top-level names to ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/top_level.txt
+writing manifest file '../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/SOURCES.txt'
+reading manifest file '../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build
+creating /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build/lib
+creating /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build/lib/turtlebot3_distance_keeper
+copying turtlebot3_distance_keeper/ultrasonicsensor_pub.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build/lib/turtlebot3_distance_keeper
+copying turtlebot3_distance_keeper/__init__.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build/lib/turtlebot3_distance_keeper
+copying turtlebot3_distance_keeper/keep_distance.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build/lib/turtlebot3_distance_keeper
+running install
+running install_lib
+creating /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper
+copying /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build/lib/turtlebot3_distance_keeper/ultrasonicsensor_pub.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper
+copying /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build/lib/turtlebot3_distance_keeper/__init__.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper
+copying /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build/lib/turtlebot3_distance_keeper/keep_distance.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper
+byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper/ultrasonicsensor_pub.py to ultrasonicsensor_pub.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper/keep_distance.py to keep_distance.cpython-310.pyc
+running install_data
+creating /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/share/ament_index
+creating /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/share/ament_index/resource_index
+creating /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/share/ament_index/resource_index/packages
+copying resource/turtlebot3_distance_keeper -> /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/share/ament_index/resource_index/packages
+copying package.xml -> /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/share/turtlebot3_distance_keeper
+running install_egg_info
+Copying ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info to /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/install.log'

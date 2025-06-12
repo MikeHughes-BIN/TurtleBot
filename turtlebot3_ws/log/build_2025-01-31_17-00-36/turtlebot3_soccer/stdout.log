@@ -1,0 +1,46 @@
+running egg_info
+creating ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info
+writing ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/PKG-INFO
+writing dependency_links to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/dependency_links.txt
+writing entry points to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/entry_points.txt
+writing requirements to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/requires.txt
+writing top-level names to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/top_level.txt
+writing manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+reading manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build
+creating /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib
+creating /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+copying turtlebot3_soccer/publish_image.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+copying turtlebot3_soccer/receive_image_info.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+copying turtlebot3_soccer/test_connection.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+copying turtlebot3_soccer/__init__.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+copying turtlebot3_soccer/move_to_ball.py -> /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer
+running install
+running install_lib
+creating /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/publish_image.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/receive_image_info.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/test_connection.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/__init__.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+copying /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build/lib/turtlebot3_soccer/move_to_ball.py -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer
+byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/publish_image.py to publish_image.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/receive_image_info.py to receive_image_info.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/test_connection.py to test_connection.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer/move_to_ball.py to move_to_ball.cpython-310.pyc
+running install_data
+creating /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/ament_index
+creating /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/ament_index/resource_index
+creating /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/ament_index/resource_index/packages
+copying resource/turtlebot3_soccer -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/ament_index/resource_index/packages
+copying package.xml -> /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/share/turtlebot3_soccer
+running install_egg_info
+Copying ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publish_image script to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/turtlebot3_soccer
+Installing soccer script to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/turtlebot3_soccer
+writing list of installed files to '/home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/install.log'

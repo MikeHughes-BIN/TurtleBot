@@ -1,0 +1,4 @@
+[console_scripts]
+publish_image = turtlebot3_soccer.publish_image:main
+soccer = turtlebot3_soccer.receive_image_info:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+findball = lidar_tracking.find_circle:main
+

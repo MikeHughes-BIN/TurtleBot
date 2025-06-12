@@ -1,0 +1,21 @@
+[11.803s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/turtlebot3_distance_keeper': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_distance_keeper build --build-base /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build install --record /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/install.log --single-version-externally-managed install_data
+[14.265s] running egg_info
+[14.271s] writing ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/PKG-INFO
+[14.276s] writing dependency_links to ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/dependency_links.txt
+[14.281s] writing entry points to ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/entry_points.txt
+[14.285s] writing requirements to ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/requires.txt
+[14.289s] writing top-level names to ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/top_level.txt
+[14.303s] reading manifest file '../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/SOURCES.txt'
+[14.309s] adding license file 'LICENSE'
+[14.315s] writing manifest file '../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info/SOURCES.txt'
+[14.319s] running build
+[14.321s] running build_py
+[14.326s] running install
+[14.330s] running install_lib
+[14.339s] running install_data
+[14.343s] running install_egg_info
+[14.361s] removing '/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper-0.0.0-py3.10.egg-info' (and everything under it)
+[14.384s] Copying ../../../build/turtlebot3_distance_keeper/turtlebot3_distance_keeper.egg-info to /home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages/turtlebot3_distance_keeper-0.0.0-py3.10.egg-info
+[14.401s] running install_scripts
+[14.507s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/install.log'
+[14.684s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/turtlebot3_distance_keeper' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/turtlebot3_distance_keeper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_distance_keeper build --build-base /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/build install --record /home/turtle1/turtlebot3_ws/build/turtlebot3_distance_keeper/install.log --single-version-externally-managed install_data

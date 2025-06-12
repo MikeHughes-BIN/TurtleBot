@@ -1,0 +1,23 @@
+[8.287s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/autonomous_driving': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/autonomous_driving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/autonomous_driving build --build-base /home/turtle1/turtlebot3_ws/build/autonomous_driving/build install --record /home/turtle1/turtlebot3_ws/build/autonomous_driving/install.log --single-version-externally-managed install_data
+[11.807s] running egg_info
+[11.814s] writing ../../../build/autonomous_driving/autonomous_driving.egg-info/PKG-INFO
+[11.817s] writing dependency_links to ../../../build/autonomous_driving/autonomous_driving.egg-info/dependency_links.txt
+[11.819s] writing entry points to ../../../build/autonomous_driving/autonomous_driving.egg-info/entry_points.txt
+[11.821s] writing requirements to ../../../build/autonomous_driving/autonomous_driving.egg-info/requires.txt
+[11.823s] writing top-level names to ../../../build/autonomous_driving/autonomous_driving.egg-info/top_level.txt
+[11.842s] reading manifest file '../../../build/autonomous_driving/autonomous_driving.egg-info/SOURCES.txt'
+[11.846s] adding license file 'LICENSE'
+[11.855s] writing manifest file '../../../build/autonomous_driving/autonomous_driving.egg-info/SOURCES.txt'
+[11.856s] running build
+[11.859s] running build_py
+[11.861s] running install
+[11.865s] running install_lib
+[11.887s] running install_data
+[11.888s] running install_egg_info
+[11.915s] removing '/home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving-0.0.0-py3.10.egg-info' (and everything under it)
+[11.920s] Copying ../../../build/autonomous_driving/autonomous_driving.egg-info to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages/autonomous_driving-0.0.0-py3.10.egg-info
+[11.944s] running install_scripts
+[12.174s] Installing sensor_info script to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/autonomous_driving
+[12.176s] Installing sensor_info2 script to /home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/autonomous_driving
+[12.181s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/autonomous_driving/install.log'
+[12.386s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/autonomous_driving' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/autonomous_driving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/autonomous_driving/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/autonomous_driving build --build-base /home/turtle1/turtlebot3_ws/build/autonomous_driving/build install --record /home/turtle1/turtlebot3_ws/build/autonomous_driving/install.log --single-version-externally-managed install_data

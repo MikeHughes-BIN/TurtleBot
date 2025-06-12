@@ -1,0 +1,23 @@
+[9.716s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/turtlebot3_soccer': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_soccer build --build-base /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build install --record /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/install.log --single-version-externally-managed install_data
+[11.481s] running egg_info
+[11.484s] writing ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/PKG-INFO
+[11.487s] writing dependency_links to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/dependency_links.txt
+[11.492s] writing entry points to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/entry_points.txt
+[11.493s] writing requirements to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/requires.txt
+[11.494s] writing top-level names to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/top_level.txt
+[11.501s] reading manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+[11.502s] adding license file 'LICENSE'
+[11.506s] writing manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+[11.508s] running build
+[11.509s] running build_py
+[11.511s] running install
+[11.511s] running install_lib
+[11.518s] running install_data
+[11.520s] running install_egg_info
+[11.532s] removing '/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer-0.0.0-py3.10.egg-info' (and everything under it)
+[11.537s] Copying ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer-0.0.0-py3.10.egg-info
+[11.545s] running install_scripts
+[11.639s] Installing publish_image script to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/turtlebot3_soccer
+[11.641s] Installing soccer script to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/turtlebot3_soccer
+[11.642s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/install.log'
+[11.787s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/turtlebot3_soccer' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_soccer build --build-base /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/build install --record /home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/install.log --single-version-externally-managed install_data

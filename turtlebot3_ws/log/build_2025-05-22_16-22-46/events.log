@@ -1,0 +1,20 @@
+[0.000000] (-) TimerEvent: {}
+[0.002318] (-) JobUnselected: {'identifier': 'autonomous_driving'}
+[0.003045] (-) JobUnselected: {'identifier': 'ball_locator'}
+[0.003363] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.003601] (-) JobUnselected: {'identifier': 'lidar_tracking'}
+[0.003860] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.004092] (-) JobUnselected: {'identifier': 'publish_sensor_info'}
+[0.004317] (-) JobUnselected: {'identifier': 'sb3_inference'}
+[0.004538] (-) JobUnselected: {'identifier': 'sb3_pusher'}
+[0.004756] (-) JobUnselected: {'identifier': 'sb3_target_driver'}
+[0.005028] (-) JobUnselected: {'identifier': 'sensor_pub'}
+[0.005256] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.005471] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.005685] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.005896] (-) JobUnselected: {'identifier': 'turtlebot3_distance_keeper'}
+[0.006232] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.006499] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.006753] (-) JobUnselected: {'identifier': 'turtlebot3_soccer'}
+[0.008770] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.009201] (-) EventReactorShutdown: {}

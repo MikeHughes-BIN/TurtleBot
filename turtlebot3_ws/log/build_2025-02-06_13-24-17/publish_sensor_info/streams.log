@@ -1,0 +1,42 @@
+[3.376s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/publish_sensor_info': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/publish_sensor_info/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/publish_sensor_info build --build-base /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build install --record /home/turtle1/turtlebot3_ws/build/publish_sensor_info/install.log --single-version-externally-managed install_data
+[4.633s] running egg_info
+[4.636s] creating ../../../build/publish_sensor_info/publish_sensor_info.egg-info
+[4.637s] writing ../../../build/publish_sensor_info/publish_sensor_info.egg-info/PKG-INFO
+[4.638s] writing dependency_links to ../../../build/publish_sensor_info/publish_sensor_info.egg-info/dependency_links.txt
+[4.639s] writing entry points to ../../../build/publish_sensor_info/publish_sensor_info.egg-info/entry_points.txt
+[4.640s] writing requirements to ../../../build/publish_sensor_info/publish_sensor_info.egg-info/requires.txt
+[4.640s] writing top-level names to ../../../build/publish_sensor_info/publish_sensor_info.egg-info/top_level.txt
+[4.641s] writing manifest file '../../../build/publish_sensor_info/publish_sensor_info.egg-info/SOURCES.txt'
+[4.649s] reading manifest file '../../../build/publish_sensor_info/publish_sensor_info.egg-info/SOURCES.txt'
+[4.650s] adding license file 'LICENSE'
+[4.654s] writing manifest file '../../../build/publish_sensor_info/publish_sensor_info.egg-info/SOURCES.txt'
+[4.656s] running build
+[4.657s] running build_py
+[4.657s] creating /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build
+[4.658s] creating /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build/lib
+[4.659s] creating /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build/lib/publish_sensor_info
+[4.660s] copying publish_sensor_info/__init__.py -> /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build/lib/publish_sensor_info
+[4.660s] copying publish_sensor_info/publisher.py -> /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build/lib/publish_sensor_info
+[4.661s] copying publish_sensor_info/subscriber.py -> /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build/lib/publish_sensor_info
+[4.661s] running install
+[4.662s] running install_lib
+[4.665s] creating /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages/publish_sensor_info
+[4.666s] copying /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build/lib/publish_sensor_info/__init__.py -> /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages/publish_sensor_info
+[4.666s] copying /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build/lib/publish_sensor_info/publisher.py -> /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages/publish_sensor_info
+[4.667s] copying /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build/lib/publish_sensor_info/subscriber.py -> /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages/publish_sensor_info
+[4.670s] byte-compiling /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages/publish_sensor_info/__init__.py to __init__.cpython-310.pyc
+[4.672s] byte-compiling /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages/publish_sensor_info/publisher.py to publisher.cpython-310.pyc
+[4.674s] byte-compiling /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages/publish_sensor_info/subscriber.py to subscriber.cpython-310.pyc
+[4.676s] running install_data
+[4.677s] creating /home/turtle1/turtlebot3_ws/install/publish_sensor_info/share/ament_index
+[4.677s] creating /home/turtle1/turtlebot3_ws/install/publish_sensor_info/share/ament_index/resource_index
+[4.678s] creating /home/turtle1/turtlebot3_ws/install/publish_sensor_info/share/ament_index/resource_index/packages
+[4.679s] copying resource/publish_sensor_info -> /home/turtle1/turtlebot3_ws/install/publish_sensor_info/share/ament_index/resource_index/packages
+[4.680s] copying package.xml -> /home/turtle1/turtlebot3_ws/install/publish_sensor_info/share/publish_sensor_info
+[4.681s] running install_egg_info
+[4.692s] Copying ../../../build/publish_sensor_info/publish_sensor_info.egg-info to /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages/publish_sensor_info-0.0.0-py3.10.egg-info
+[4.699s] running install_scripts
+[4.781s] Installing pub script to /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/publish_sensor_info
+[4.781s] Installing sub script to /home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/publish_sensor_info
+[4.783s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/publish_sensor_info/install.log'
+[4.907s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/publish_sensor_info' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/publish_sensor_info/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/publish_sensor_info/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/publish_sensor_info build --build-base /home/turtle1/turtlebot3_ws/build/publish_sensor_info/build install --record /home/turtle1/turtlebot3_ws/build/publish_sensor_info/install.log --single-version-externally-managed install_data

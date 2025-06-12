@@ -1,0 +1,3 @@
+[console_scripts]
+ball_locator = ball_locator.ball_locator_inference:main
+

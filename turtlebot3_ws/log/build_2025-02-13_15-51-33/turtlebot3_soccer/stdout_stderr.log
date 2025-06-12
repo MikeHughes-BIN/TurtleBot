@@ -1,0 +1,21 @@
+running egg_info
+writing ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/PKG-INFO
+writing dependency_links to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/dependency_links.txt
+writing entry points to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/entry_points.txt
+writing requirements to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/requires.txt
+writing top-level names to ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/top_level.txt
+reading manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/turtlebot3_soccer/turtlebot3_soccer.egg-info to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/python3.10/site-packages/turtlebot3_soccer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publish_image script to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/turtlebot3_soccer
+Installing soccer script to /home/turtle1/turtlebot3_ws/install/turtlebot3_soccer/lib/turtlebot3_soccer
+writing list of installed files to '/home/turtle1/turtlebot3_ws/build/turtlebot3_soccer/install.log'

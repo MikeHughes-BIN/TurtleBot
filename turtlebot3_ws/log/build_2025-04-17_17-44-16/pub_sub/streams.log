@@ -1,0 +1,25 @@
+[8.262s] Invoking command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/pub_sub': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pub_sub build --build-base /home/turtle1/turtlebot3_ws/build/pub_sub/build install --record /home/turtle1/turtlebot3_ws/build/pub_sub/install.log --single-version-externally-managed install_data
+[11.876s] running egg_info
+[11.883s] writing ../../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[11.885s] writing dependency_links to ../../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[11.887s] writing entry points to ../../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[11.890s] writing requirements to ../../../build/pub_sub/pub_sub.egg-info/requires.txt
+[11.891s] writing top-level names to ../../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[11.912s] reading manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[11.916s] adding license file 'LICENSE'
+[11.924s] writing manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[11.925s] running build
+[11.926s] running build_py
+[11.929s] copying pub_sub/subscriber.py -> /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub
+[11.931s] running install
+[11.937s] running install_lib
+[11.945s] copying /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub/subscriber.py -> /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[11.953s] byte-compiling /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/subscriber.py to subscriber.cpython-310.pyc
+[11.958s] running install_data
+[11.960s] running install_egg_info
+[11.987s] removing '/home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[11.991s] Copying ../../../build/pub_sub/pub_sub.egg-info to /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[12.008s] running install_scripts
+[12.229s] Installing pub script to /home/turtle1/turtlebot3_ws/install/pub_sub/lib/pub_sub
+[12.232s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/pub_sub/install.log'
+[12.440s] Invoked command in '/home/turtle1/turtlebot3_ws/src/turtlebot3/pub_sub' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pub_sub build --build-base /home/turtle1/turtlebot3_ws/build/pub_sub/build install --record /home/turtle1/turtlebot3_ws/build/pub_sub/install.log --single-version-externally-managed install_data

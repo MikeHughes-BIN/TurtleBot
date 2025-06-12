@@ -1,0 +1,4 @@
+[console_scripts]
+pub = publish_sensor_info.publisher:main
+sub = publish_sensor_info.subscriber:main
+

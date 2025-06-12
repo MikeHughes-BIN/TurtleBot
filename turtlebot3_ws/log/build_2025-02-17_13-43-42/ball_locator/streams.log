@@ -1,0 +1,26 @@
+[3.478s] Invoking command in '/home/turtle1/turtlebot3_ws/src/tb3_rl/ball_locator': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/ball_locator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ball_locator build --build-base /home/turtle1/turtlebot3_ws/build/ball_locator/build install --record /home/turtle1/turtlebot3_ws/build/ball_locator/install.log --single-version-externally-managed install_data
+[5.287s] running egg_info
+[5.293s] writing ../../../build/ball_locator/ball_locator.egg-info/PKG-INFO
+[5.298s] writing dependency_links to ../../../build/ball_locator/ball_locator.egg-info/dependency_links.txt
+[5.303s] writing entry points to ../../../build/ball_locator/ball_locator.egg-info/entry_points.txt
+[5.307s] writing requirements to ../../../build/ball_locator/ball_locator.egg-info/requires.txt
+[5.311s] writing top-level names to ../../../build/ball_locator/ball_locator.egg-info/top_level.txt
+[5.322s] reading manifest file '../../../build/ball_locator/ball_locator.egg-info/SOURCES.txt'
+[5.330s] adding license file 'LICENSE'
+[5.334s] writing manifest file '../../../build/ball_locator/ball_locator.egg-info/SOURCES.txt'
+[5.337s] running build
+[5.340s] running build_py
+[5.349s] running install
+[5.353s] running install_lib
+[5.359s] creating /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator
+[5.361s] copying /home/turtle1/turtlebot3_ws/build/ball_locator/build/lib/ball_locator/__init__.py -> /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator
+[5.363s] copying /home/turtle1/turtlebot3_ws/build/ball_locator/build/lib/ball_locator/ball_locator_inference.py -> /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator
+[5.365s] byte-compiling /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator/__init__.py to __init__.cpython-310.pyc
+[5.370s] byte-compiling /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator/ball_locator_inference.py to ball_locator_inference.cpython-310.pyc
+[5.377s] running install_data
+[5.380s] running install_egg_info
+[5.383s] Copying ../../../build/ball_locator/ball_locator.egg-info to /home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages/ball_locator-0.0.0-py3.10.egg-info
+[5.386s] running install_scripts
+[5.492s] Installing ball_locator script to /home/turtle1/turtlebot3_ws/install/ball_locator/lib/ball_locator
+[5.494s] writing list of installed files to '/home/turtle1/turtlebot3_ws/build/ball_locator/install.log'
+[5.668s] Invoked command in '/home/turtle1/turtlebot3_ws/src/tb3_rl/ball_locator' returned '0': PYTHONPATH=/home/turtle1/turtlebot3_ws/build/ball_locator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle1/turtlebot3_ws/install/ball_locator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ball_locator build --build-base /home/turtle1/turtlebot3_ws/build/ball_locator/build install --record /home/turtle1/turtlebot3_ws/build/ball_locator/install.log --single-version-externally-managed install_data

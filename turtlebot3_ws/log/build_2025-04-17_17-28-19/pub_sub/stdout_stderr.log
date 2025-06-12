@@ -1,0 +1,37 @@
+running egg_info
+creating ../../../build/pub_sub/pub_sub.egg-info
+writing ../../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+writing requirements to ../../../build/pub_sub/pub_sub.egg-info/requires.txt
+writing top-level names to ../../../build/pub_sub/pub_sub.egg-info/top_level.txt
+writing manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+reading manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/turtle1/turtlebot3_ws/build/pub_sub/build
+creating /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib
+creating /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub
+copying pub_sub/__init__.py -> /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub
+copying pub_sub/publisher.py -> /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub
+running install
+running install_lib
+creating /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/turtle1/turtlebot3_ws/build/pub_sub/build/lib/pub_sub/publisher.py -> /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub
+byte-compiling /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub/publisher.py to publisher.cpython-310.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (publisher.py, line 26)
+running install_data
+creating /home/turtle1/turtlebot3_ws/install/pub_sub/share/ament_index
+creating /home/turtle1/turtlebot3_ws/install/pub_sub/share/ament_index/resource_index
+creating /home/turtle1/turtlebot3_ws/install/pub_sub/share/ament_index/resource_index/packages
+copying resource/pub_sub -> /home/turtle1/turtlebot3_ws/install/pub_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/turtle1/turtlebot3_ws/install/pub_sub/share/pub_sub
+running install_egg_info
+Copying ../../../build/pub_sub/pub_sub.egg-info to /home/turtle1/turtlebot3_ws/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pub script to /home/turtle1/turtlebot3_ws/install/pub_sub/lib/pub_sub
+writing list of installed files to '/home/turtle1/turtlebot3_ws/build/pub_sub/install.log'
