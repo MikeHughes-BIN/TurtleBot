@@ -24,5 +24,5 @@ The system runs on a Jetson Nano with Raspberry Pi control, based on ROS2 Humble
 - **Python 3.x**
 - **rclpy (ROS2 Python Client Library)**
 - **OpenCV (for image processing)**
-- **Godot RL Agents** (optional for training)
-- **Stable Baselines3** (optional for reinforcement learning training)
+- **Godot RL Agents** 
+- **Stable Baselines3** 
