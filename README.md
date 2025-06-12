@@ -1,28 +1,26 @@
-# TurtleBot3 Ballverfolgung und Zielnavigation mit ROS2
+TurtleBot3 Ball Tracking and Target Navigation with ROS2
 
-## Projektziel
+Project Goal
 
-In diesem Projekt steuern wir einen TurtleBot3 Roboter so, dass er mithilfe seiner Kamera einen roten Ball erkennt, diesen verfolgt und aktiv in ein Ziel schiebt. Währenddessen nutzt der Roboter zusätzlich einen Ultraschall-Sensor zur Hindernisvermeidung.  
+In this project, we control a TurtleBot3 robot to detect a red ball using its camera, follow it, and actively push it into a target area. Meanwhile, the robot utilizes an ultrasonic sensor for obstacle avoidance.
 
-Das Projekt läuft auf einem Jetson Nano mit Raspberry Pi Steuerung, basierend auf ROS2 Humble und OpenCV.
+The system runs on a Jetson Nano with Raspberry Pi control, based on ROS2 Humble and OpenCV.
 
----
+⸻
 
-## Projektübersicht
+Project Overview
 
-### Hardware
+Hardware
+	•	TurtleBot3 (Burger or Waffle Pi)
+	•	Jetson Nano (for image processing)
+	•	Raspberry Pi (controls TurtleBot3 board)
+	•	Ultrasonic sensor
+	•	Camera (e.g., Raspberry Pi Camera Module)
 
-- **TurtleBot3 (Burger oder Waffle Pi)**
-- **Jetson Nano** (für Bildverarbeitung)
-- **Raspberry Pi** (Steuerung TurtleBot3-Board)
-- **Ultraschall-Sensor**
-- **Kamera (z. B. Raspberry Pi Camera Module)**
-
-### Software
-
-- **ROS2 Humble**
-- **Python 3.x**
-- **rclpy (ROS2 Python Client Library)**
-- **OpenCV (für Bildverarbeitung)**
-- **Godot RL Agents** (nur für optionales Training)
-- **Stable Baselines3 (optional für RL-Training)**
+Software
+	•	ROS2 Humble
+	•	Python 3.x
+	•	rclpy (ROS2 Python Client Library)
+	•	OpenCV (for image processing)
+	•	Godot RL Agents (optional for training)
+	•	Stable Baselines3 (optional for reinforcement learning training)
